@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-succes-jcQ_C-GMes)
+- Live Site URL: [Live Site](https://github.com/mouwaficbdr/newsletter-sign-up-with-success-message-main)
 
 ## My process
 
