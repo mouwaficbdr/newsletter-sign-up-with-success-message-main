@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-succes-jcQ_C-GMes)
-- Live Site URL: [Live Site](https://github.com/mouwaficbdr/newsletter-sign-up-with-success-message-main)
+- Live Site URL: [Live Site](https://mouwaficbdr.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 
