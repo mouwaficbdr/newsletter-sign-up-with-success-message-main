@@ -33,6 +33,10 @@ body{
   background-color: var(--dark-slate-grey);
 }
 
+.mobile-img{
+  display: none;
+}
+
 .hidden{
   display: none !important;
 }
@@ -45,7 +49,6 @@ body{
   background-color: var(--white);
   padding: 10px 0;
   border-radius: 15px;
-
 }
 
 .left{
@@ -95,7 +98,7 @@ form{
 }
 
 .left form input[type="email"]{
-  height: 35px;
+  height: 40px;
   margin-bottom: 10px;
   padding-left: 10px;
   border: 1px solid var(--grey);
@@ -103,7 +106,7 @@ form{
 }
 
 button{
-  height: 35px;
+  height: 40px;
   margin-bottom: 20px;
   font-weight: bold;
   color: var(--white);
@@ -120,12 +123,13 @@ button:hover{
 
 .right{
   margin-left: 5px;
+  display: block !important;
 }
 
 /* SUCCESS CONTAINER */
 
 .success{
-  width: 400px;
+  width: 350px;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
@@ -142,7 +146,7 @@ button:hover{
 }
 
 .success p{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .success button{
@@ -152,3 +156,137 @@ button:hover{
 #mail{
   font-weight: bold;
 }
+
+@media only screen and  (max-width: 710px){
+  .signup{
+    padding: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .right, .left{
+    margin: 0 ;
+  }
+
+  .right{
+    width: 40%;
+  }
+
+  .right img{
+    width: 100%;
+  }
+
+  .left{
+    width: 50%;
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .left ul li img:not(.last-li-img){
+    width: 15px;
+    margin-top: 10px;;
+  }
+
+  .last-li-img{
+    width: 15px;
+  }
+}
+
+@media only screen and (max-width: 568px) and (min-width: 429px){
+  .left form input[type="email"]{
+    height: 25px;
+  }
+
+  .left ul li{
+    margin-bottom: 0px;
+  }
+
+  .left ul li:last-of-type{
+  margin-bottom : 0;
+}
+
+  .signup button {
+    height: 25px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  body{
+    display: block;
+  }
+
+  .signup{
+    /* height: 100vh; */
+    flex-direction: column-reverse;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  .left{
+    width: 90%;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+
+  .right{
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .mobile-img{
+    display: block;
+  }
+
+  .desktop-img{
+    display: none;
+  }
+
+  .left h1{
+    margin-bottom: 20px;
+  }
+
+  .left ul{
+    margin-bottom: 20px;
+  }
+
+  .left form label{
+    margin-bottom: 10px;
+  }
+
+  .left form input[type="email"]{
+    margin-bottom: 20px;
+  }
+
+   .left ul li img:not(.last-li-img){
+    width: 20px;
+    margin-bottom: 10px;
+  }
+
+  .last-li-img{
+    width: 20px;
+  }
+
+  .success{
+    height: 100vh;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .success img{
+    margin: 90px 0 30px 0;
+  }
+
+  .success button{
+    margin-top: auto;
+    height: 45px;
+  }
+
+  .attribution{
+    display: none;
+  }
+}
+  
