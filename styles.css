@@ -218,7 +218,7 @@ button:hover{
   }
 
   .signup{
-    /* height: 100vh; */
+    height: 100vh;
     flex-direction: column-reverse;
     justify-content:flex-end;
     align-items: center;
@@ -282,6 +282,7 @@ button:hover{
 
   .success button{
     margin-top: auto;
+    margin-bottom:15px;
     height: 45px;
   }
 
