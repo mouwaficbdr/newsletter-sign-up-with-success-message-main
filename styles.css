@@ -224,6 +224,7 @@ button:hover{
     align-items: center;
     padding: 0;
     width: 100%;
+    border-radius: 0;
   }
 
   .left{
@@ -271,7 +272,7 @@ button:hover{
   }
 
   .success{
-    height: 100vh;
+    height: 100%;
     border-radius: 0;
     width: 100%;
   }
@@ -282,7 +283,7 @@ button:hover{
 
   .success button{
     margin-top: auto;
-    margin-bottom:15px;
+    margin-bottom: 25px;
     height: 45px;
   }
 
