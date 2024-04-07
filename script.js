@@ -23,5 +23,4 @@ subscribeBtn.addEventListener("click", subscribe);
 dismissBtn.addEventListener("click", () => {
   document.querySelector('.signup').classList.toggle('hidden');
   document.querySelector('.success').classList.toggle("hidden");
-  email.value = "";
 })
